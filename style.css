@@ -45,3 +45,13 @@ h2 {
     color: red;
     text-decoration: underline;
 }
+.score {
+    border: 1px solid #333;
+    margin: 0 200px;
+}
+@media screen and (max-width:900px) {
+    .score {
+        margin: 0 100px;
+        padding: 0;
+    }
+}
